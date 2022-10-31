@@ -13,7 +13,7 @@ function check() {
     const guess = document.getElementById("guess").value;
     const result = document.getElementById("result");
     if (guess == num) {
-        result.innerHTML = "You guessed it!";
+        result.innerHTML = `You guessed it! <img src="./assets/win.svg">`;
     } else if (guess > num) {
         result.innerHTML = "Too high!";
         Move();
@@ -27,7 +27,7 @@ function Move() {
     moves--;
     document.getElementById("moves").innerHTML = "0" + moves;
     if (moves == 0) {
-        document.getElementById("result").innerHTML = "You lose!";
+        document.getElementById("result").innerHTML = `You lose! <img src="./assets/lose.svg">`;
     }
 }
 
