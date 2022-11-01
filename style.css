@@ -17,7 +17,7 @@ body {
     background: rgba(255, 255, 255, 0.2);
     /* border: 1px solid #000; */
     border-radius: 1em;
-    padding: 2rem;
+    padding: 2em;
     width: fit-content;
     height: fit-content;
     font-size: 1.5em;
@@ -64,16 +64,16 @@ body {
     padding: 0.25em 0.25em 0.75em 0.75em;
     color: #fff;
     background-color: #dc143c;
-    border-bottom-left-radius: 10rem;
+    border-bottom-left-radius: 10em;
     top: 0;
     right: 0;
     position: absolute;
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
 }
 
 #result {
     color: #fff;
-    font-size: 2rem;
+    font-size: 2em;
     text-align: center;
 }
